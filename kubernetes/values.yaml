@@ -1,6 +1,10 @@
 provider: none
+nginx-ingress:
+  controller:
+    publishService:
+      enabled: true
 ingress:
-  enabled: false
+  enabled: true
   class: null
   domain: null
   staticIpName: null
